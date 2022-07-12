@@ -15,9 +15,6 @@ if (num1 > num2)
 {
     Console.WriteLine ($"Максимальное число: {num1}");   
 }    
+    else if (num1 == num2)    Console.WriteLine ("Числа равны");
+
 else Console.WriteLine ($"Максимальное число: {num2}");
-// else
-// {
-//    if (num1 < num2);
-//     Console.WriteLine ("Числа равны");
-// }
