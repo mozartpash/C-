@@ -6,16 +6,16 @@
 
 
 Console.WriteLine("Введите первое число");
-int num1 = Convert.ToInt32(Console.ReadLine ());
+int num1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе число");
-int num2 = Convert.ToInt32(Console.ReadLine ());
+int num2 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе число");
-int num3 = Convert.ToInt32(Console.ReadLine ());
+int num3 = Convert.ToInt32(Console.ReadLine());
 int big = num1;
 
 if (big < num2)
 {
-    big = num2;   
-}    
+    big = num2;
+}
 if (num2 < num3) big = num3;
- Console.WriteLine ($"Максимальное число: {big}");
+Console.WriteLine($"Максимальное число: {big}");
