@@ -4,7 +4,7 @@
 // Console.WriteLine("Третья цифра этого числа -> "+stringNumber[2]);
 Console.WriteLine("Введи трёхзначное число");
 int num = Convert.ToInt32(Console.ReadLine());
-if (num > 99)
+if (num > 99 && num < 1000)
 {
     Console.Write(num % 10);
 }
