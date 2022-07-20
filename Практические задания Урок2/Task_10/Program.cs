@@ -14,4 +14,4 @@ if (num > 99 && num < 1000)
     num = num % 10;
     Console.Write(num);
 }
-else Console.Write("Ошибка");
+else Console.Write("некорректный ввод");
