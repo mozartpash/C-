@@ -7,11 +7,11 @@
 Console.WriteLine("Введите число");
 int num = Convert.ToInt32(Console.ReadLine());
 int count = 0;
-Console.Write($"Четные числа: ");
+Console.Write("Четные числа: ");
 
 while (count < (num - 1))
 
 {
-  count = count + 2; Console.Write($"{count},");
+    count = count + 2; Console.Write($" {count},");
 }
 

@@ -18,4 +18,6 @@ if (big < num2)
     big = num2;
 }
 if (num2 < num3) big = num3;
+{
 Console.WriteLine($"Максимальное число: {big}");
+}

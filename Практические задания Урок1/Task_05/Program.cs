@@ -6,7 +6,7 @@
 
 Console.WriteLine("Введите число");
 int num = Convert.ToInt32(Console.ReadLine());
-int negative = 0 - num;
+int negative = -num;
 Console.Write($"{negative} ,");
 
 while (negative < num)
