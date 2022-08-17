@@ -52,3 +52,5 @@ else if (num > 9999 && num < 99999)
 Console.Write(num);
 }
 else Console.Write("Третьей цифры нет");
+
+//Не могу придумать ещё варианты
